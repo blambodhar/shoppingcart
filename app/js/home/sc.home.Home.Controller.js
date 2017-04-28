@@ -29,14 +29,14 @@
 
 
             var category = {
-                "id": "5005",
-                "category_name":"AAAAA",
-                "short_description": "AAAAAAAAAAA>>>"
+                "id": "5006",
+                "category_name":"BBBB",
+                "short_description": "BBBBBB>>>"
             };
 
-            productsCategory.addProductCategory(category).then(function(response){
+            /*productsCategory.addProductCategory(category).then(function(response){
                 console.log('Successfully created.')
-            });
+            });*/
         }
 
         
