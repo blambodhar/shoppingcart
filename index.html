@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="sc">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+
+    <!-- bower:css -->
+    <link rel="stylesheet" href="lib/vendor/cssreset/reset.css" />
+    <link rel="stylesheet" href="lib/vendor/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- endbower -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/app/css/site.css">
+    <!-- endinject -->
+
+    <!-- bower:js -->
+    <script src="lib/vendor/jquery/dist/jquery.js"></script>
+    <script src="lib/vendor/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="lib/vendor/angular/angular.js"></script>
+    <script src="lib/vendor/angular-cookies/angular-cookies.js"></script>
+    <script src="lib/vendor/angular-sanitize/angular-sanitize.js"></script>
+    <script src="lib/vendor/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- endbower -->
+
+</head>
+<body >
+<header>
+    <p>header</p>
+</header>
+<!-- partials view container -->
+<section data-ui-view=""></section>
+<!-- ./partials view container -->
+
+<footer>
+    <p>footer</p>
+</footer>
+
+
+<!-- inject:js -->
+<script src="/app/js/cart/sc.cart.module.js"></script>
+<script src="/app/js/core/sc.core.module.js"></script>
+<script src="/app/js/home/sc.home.module.js"></script>
+<script src="/app/js/products/sc.products.module.js"></script>
+<script src="/app/js/sc.app.js"></script>
+<script src="/app/js/sc.config.js"></script>
+<script src="/app/js/sc.shopservice.js"></script>
+<script src="/app/js/cart/sc.cart.Cart.controller.js"></script>
+<script src="/app/js/cart/sc.cart.Cart.service.js"></script>
+<script src="/app/js/core/sc.core.httpData.service.js"></script>
+<script src="/app/js/home/sc.home.Home.Controller.js"></script>
+<script src="/app/js/home/sc.home.productsCategory.service.js"></script>
+<script src="/app/js/products/sc.products.Products.controller.js"></script>
+<!-- endinject -->
+</body>
+</html>

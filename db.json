@@ -1,0 +1,56 @@
+{
+  "cart": [
+    {
+      "id": "100",
+      "user": "blambodh",
+      "number": "xyx"
+    }
+  ],
+  "products": [
+    {
+      "id": "1001",
+      "product_name": "Dining Table Chairs",
+      "category_id": "5001",
+      "short_description": "Wooden chairs",
+      "long_description": "Wooden chairs"
+    },
+    {
+      "id": "1002",
+      "product_name": "Sofa Set",
+      "category_id": "5002",
+      "short_description": "Sofa cum bed",
+      "long_description": ""
+    }
+  ],
+  "category": [
+    {
+      "id": "5001",
+      "category_name": "Stationary & Crafts products",
+      "short_description": "All crafts and stationary products."
+    },
+    {
+      "id": "5002",
+      "category_name": "Living Room products",
+      "short_description": "All living room products."
+    },
+    {
+      "id": "5003",
+      "category_name": "Kitchen products",
+      "short_description": "All cutlery and kitchen products."
+    },
+    {
+      "id": "5005",
+      "category_name": "AAAAA",
+      "short_description": "AAAAAAAAAAA>>>"
+    }
+  ],
+  "users": [
+    {
+      "id": "10001",
+      "user_id": "blambodh",
+      "password": "",
+      "first_name": "Bhupal",
+      "last_name": "Lambodhar"
+    }
+  ]
+}
