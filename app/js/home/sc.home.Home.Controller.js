@@ -34,9 +34,9 @@
                 "short_description": "BBBBBB>>>"
             };
 
-            /*productsCategory.addProductCategory(category).then(function(response){
+            productsCategory.addProductCategory(category).then(function(response){
                 console.log('Successfully created.')
-            });*/
+            });
         }
 
         
