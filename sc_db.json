@@ -1,0 +1,223 @@
+{  
+  "categories" : [
+     {
+      "id": "CATG1",
+      "category_name": "Clothing",
+      "short_description": "All varieties of clothes."
+    },
+
+    {
+       "id": "CATG2",
+      "category_name": "Computers",
+      "short_description": "All kinds of latest computers."
+    },
+
+    {
+       "id": "CATG3",
+      "category_name": "Books",
+      "short_description": "World famous books."
+    },
+
+    {
+       "id": "CATG4",
+      "category_name": "Cell Phones",
+      "short_description": "Phones from Nokia to Iphone."
+    }
+  ],
+
+	"products": [
+	  {
+       "id": "PRDCT1_CATG1",
+       "image": "images/clothes/clothes1.jpg",
+       "product_name": "Relipop",
+       "category_id": "CATG1",
+       "short_description": "Relipop Women's Sheer Chiffon top",
+       "long_description": "Material Chiffon and Lace Design Floral Suit for Going out,Party,Beach,Daily",
+       "price": "$12.00"
+    },
+    {
+      "id": "PRDCT2_CATG1",
+       "image": "images/clothes/clothes2.jpg",
+       "product_name": "Q & Y",
+       "category_id": "CATG1",
+       "short_description": "Q&Y Women's V-neck Tshirt",
+       "long_description": "Q&Y Women's V-neck Striped Casual Short Sleeve T-shirt Blouse Tees Tops",
+       "price": "$12.00"
+      
+    },
+    {
+       "id": "PRDCT3_CATG1",
+       "image": "images/clothes/clothes3.jpg",
+       "product_name": "Aunt Taylor",
+       "category_id": "CATG1",
+       "short_description": "AuntTaylor Womens Cardigans",
+       "long_description": "AuntTaylor Womens Cardigans Solid High Low Long Sleeve Boho Open Front Blouses Cardigans",
+       "price": "$12.00"
+       
+    },
+    {
+      "id": "PRDCT4_CATG1",
+       "image": "images/clothes/clothes4.jpg",
+       "product_name": "Hanes",
+       "category_id": "CATG1",
+       "short_description": "Hanes Men's Long Sleeve",
+       "long_description": "Hanes Men's Long Sleeve Cool Dri T-Shirt UPF 50",
+       "price": "$12.00"
+       
+    },
+    {
+       "id": "PRDCT1_CATG2",
+       "image": "images/computers/computer1.jpg",
+       "product_name": "LG Electronics",
+       "price": "$165.99",
+       "category_id": "CATG2",
+       "short_description": "LG Electronics UM57 25UM57 25-Inch laptop",
+       "long_description" : "LG Electronics UM57 25UM57 25-Inch 4K Ultra HD Smart OLED TV"
+   },
+   {
+      "id": "PRDCT2_CATG2",
+       "image": "images/computers/computer2.jpg",
+       "name": "Lenovo Ideapad",
+       "price": "$159.65",
+       "category_id": "CATG2",
+       "short_description": "Lenovo Ideapad 25-Inch laptop",
+       "long_description" : "Lenovo Ideapad 310 25 Laptop, Black (Intel Core i3-7100U, 4GB, 1TB HDD, Intel HD Graphics 620, Windows 10) 80TV00BJUS"
+   },
+   {
+      "id": "PRDCT3_CATG2",
+       "image": "images/computers/computer3.jpg",
+       "name": "Dell Latitude",
+       "price": "$279",
+       "category_id": "CATG2",
+       "short_description": "Dell Latitude E6430 Premium 14.1-Inch laptop",
+       "long_description" : "DELL Latitude E6430 14 Touchscreen Ultrabook Laptop Computer, Intel Dual Core i7-4600U 2.1Ghz, 8GB RAM, 256GB SSD"
+   },
+   {
+      "id": "PRDCT4_CATG2",
+       "image": "images/computers/computer4.jpg",
+       "prodcut_name": "Apple MacBook",
+       "price": "$1542",
+       "category_id": "CATG2",
+       "short_description": "Apple MacBook MLH82LL/A 12-Inch Laptop",
+       "long_description" : "Apple MacBook Air 12 LED - Intel Core i5 - 8GB RAM - 128GB Storage MMGF2LL/A"
+   },
+
+    {
+       "id": "PRDCT1_CATG3",
+       "image": "images/books/book1.jpg",
+       "product_name": "Amazon's J. K. Rowling Page",
+       "price": "$14.99",
+       "category_id": "CATG3",
+       "short_description": "Amazon's J. K. Rowling Page all Series",
+       "long_description" : "Amazon's J. K. Rowling Page all Series with latest publications"
+    },
+    {
+        "id": "PRDCT2_CATG3",
+       "image": "images/books/book2.jpg",
+       "product_name": "Harry Potter I",
+       "price": "$8.99",
+       "category_id": "CATG3",
+       "short_description": "Harry Potter and the Sorcerer's Stone",
+       "long_description" : "Detailed description of Harry Potter and the Sorcerer's Stone full story"
+    },
+    {
+        "id": "PRDCT3_CATG3",
+       "image": "images/books/book3.jpg",
+       "product_name": "Harry Potter II",
+       "price": "$6.79",
+       "category_id": "CATG3",
+       "short_description": "Harry Potter And The Chamber Of Secrets",
+       "long_description" : "Detailed description of Harry Potter And The Chamber Of Secrets full story"
+    },
+
+    {
+        "id": "PRDCT4_CATG3",
+       "image": "images/books/book4.jpg",
+       "product_name": "Harry Potter IV",
+       "price": "$6.79",
+       "category_id": "CATG3",
+       "short_description": "Harry Potter And The Goblet Of Fire",
+       "long_description" : "Detailed description of Harry Potter And The Goblet Of Fire full story"
+    },
+    
+    {
+       "id": "PRDCT1_CATG4",
+       "image": "images/cellphones/cellphones1.jpg",
+       "name": "Apple iPhone 6",
+       "price": "$279.64",
+       "category_id": "CATG4",
+       "short_description": "Apple iPhone 6 16GB Factory",
+       "long_description" : "Apple iPhone 6 16GB Factory 2017 model"
+    },
+    {
+       "id": "PRDCT2_CATG4",
+       "image": "images/cellphones/cellphones2.jpg",
+       "name": "Apple iPhone 6S",
+       "price": "$369.00",
+       "category_id": "CATG4",
+       "short_description": "Apple iPhone 6S - 16GB GSM",
+       "long_description" : "Apple iPhone 6S - 16GB GSM 2017 model"
+    },
+    {
+        "id": "PRDCT3_CATG4",
+       "image": "images/cellphones/cellphones3.jpg",
+       "name": "Samsung Galaxy S7 32 GB",
+       "price": "$447.00",
+       "category_id": "CATG4",
+       "short_description": "Samsung Galaxy S7 32 GB",
+       "long_description" : "Samsung Galaxy S7 32 GB 2017 model"
+    },
+    {
+       "id": "PRDCT4_CATG4",
+       "image": "images/cellphones/cellphones4.jpg",
+       "name": "Samsung Galaxy S7",
+       "price": "$439.00",
+       "category_id": "CATG4",
+       "short_description": "Samsung Galaxy S7 G930F 32GB",
+       "long_description" : "Samsung Galaxy S7 G930F 32GB 2017 model"
+    }
+],
+
+  "users": [
+  {
+       "id": "USR001",
+       "firstname": "Robert",
+       "lastname": "King",
+       "email": "robert.king@gmail.com"
+      
+    },
+    {
+
+      "id": "USR002",
+       "first_name": "Hannah",
+       "last_name": "Williams",
+       "email": "hannah.williams@gmail.com",
+       "password": ""
+          
+    },
+    {
+       "id": "USR003",
+       "firstname": "Sarah",
+       "lastname": "Novel",
+       "email": "sarah.novel@gmail.com",
+       "password": ""
+       
+    },
+    {
+
+      "id": "USR004",
+       "firstname": "Darci",
+       "lastname": "davis",
+       "email": "darci.davis@gmail.com",
+       "password": ""
+       
+    },
+    {
+      "id": "USR005",
+       "firstname": "angel",
+       "lastname": "sun",
+       "email": "angel.sun@gmail.com",
+       "password": ""
+       
+    }]
+}
