@@ -1,16 +1,17 @@
-<p>This is home page</p>
-
-<div class="home-page">
-    <table class="table table-border">
-        <tr>
-            <th>Cart</th>
-            <th>Products</th>
-            <th>Category</th>
-        </tr>
-        <tr data-ng-repeat="category in categories" >
-            <td>{{category.id}}</td>
-            <td>{{category.category_name}}</td>
-            <td>{{category.short_description}}</td>
-        </tr>
-    </table>
-</div>
+<section id="page">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="bp-home-main-content" class="col-md-12">
+                    <div data-ui-sref="products({category: category.id})" class="col-xs-4 col-sd-4 col-md-4 col-lg-4" ng-repeat="category in categories">
+                          <div class="thumbnail">
+                            <div class="caption">
+                              <strong><a data-ui-sref="products({category: category.id})" ng-bind="category.id"></a></strong>
+                              <h5 ng-bind="category.category_name"></h5>   
+                              <p data-ng-bind="category.short_description"></p>                 
+                          </div>                      
+                    </div>
+                </div>
+           </div>
+            
+        </div>
+</section>

@@ -1,3 +1,17 @@
 body {
     position: relative;
 }
+
+#page {
+    padding-top: 20px;
+	height: 550px;
+	
+}
+
+#products {
+	padding-top: 20px;
+}
+
+#header, #footer {
+	background-color: lightgreen;
+}

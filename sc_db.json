@@ -77,7 +77,7 @@
    {
       "id": "PRDCT2_CATG2",
        "image": "images/computers/computer2.jpg",
-       "name": "Lenovo Ideapad",
+       "product_name": "Lenovo Ideapad",
        "price": "$159.65",
        "category_id": "CATG2",
        "short_description": "Lenovo Ideapad 25-Inch laptop",
@@ -86,7 +86,7 @@
    {
       "id": "PRDCT3_CATG2",
        "image": "images/computers/computer3.jpg",
-       "name": "Dell Latitude",
+       "product_name": "Dell Latitude",
        "price": "$279",
        "category_id": "CATG2",
        "short_description": "Dell Latitude E6430 Premium 14.1-Inch laptop",
@@ -95,7 +95,7 @@
    {
       "id": "PRDCT4_CATG2",
        "image": "images/computers/computer4.jpg",
-       "prodcut_name": "Apple MacBook",
+       "product_name": "Apple MacBook",
        "price": "$1542",
        "category_id": "CATG2",
        "short_description": "Apple MacBook MLH82LL/A 12-Inch Laptop",
@@ -143,7 +143,7 @@
     {
        "id": "PRDCT1_CATG4",
        "image": "images/cellphones/cellphones1.jpg",
-       "name": "Apple iPhone 6",
+       "product_name": "Apple iPhone 6",
        "price": "$279.64",
        "category_id": "CATG4",
        "short_description": "Apple iPhone 6 16GB Factory",
@@ -152,7 +152,7 @@
     {
        "id": "PRDCT2_CATG4",
        "image": "images/cellphones/cellphones2.jpg",
-       "name": "Apple iPhone 6S",
+       "product_name": "Apple iPhone 6S",
        "price": "$369.00",
        "category_id": "CATG4",
        "short_description": "Apple iPhone 6S - 16GB GSM",
@@ -161,7 +161,7 @@
     {
         "id": "PRDCT3_CATG4",
        "image": "images/cellphones/cellphones3.jpg",
-       "name": "Samsung Galaxy S7 32 GB",
+       "product_name": "Samsung Galaxy S7 32 GB",
        "price": "$447.00",
        "category_id": "CATG4",
        "short_description": "Samsung Galaxy S7 32 GB",
@@ -170,7 +170,7 @@
     {
        "id": "PRDCT4_CATG4",
        "image": "images/cellphones/cellphones4.jpg",
-       "name": "Samsung Galaxy S7",
+       "product_name": "Samsung Galaxy S7",
        "price": "$439.00",
        "category_id": "CATG4",
        "short_description": "Samsung Galaxy S7 G930F 32GB",

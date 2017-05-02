@@ -25,6 +25,9 @@
             .state('products',
                 {
                     url:'/products',
+                    params: {
+                        category: null
+                    },
                     templateUrl:'/app/partial/products.html',
                     controller:'ProductsController'
                 });
